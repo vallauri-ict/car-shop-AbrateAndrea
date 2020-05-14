@@ -1,0 +1,70 @@
+﻿/******Aggiunta Font*********/
+@font-face {
+	font-family: 'GeosansLight';
+	src: url('./font/GeosansLight.eot');
+	src: local('GeosansLight'), url('./font/GeosansLight.woff') format('woff'), url('./font/GeosansLight.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("img/sfondo.jpg");
+    font-family: 'GeosansLight';
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding: 30px;
+	color: white;
+}
+
+h2{
+    font-size: 25pt;
+}
+
+h2, h5 {
+    text-align: center;
+    margin-down:10px;
+}
+
+img {
+    width: 500px;
+    height: 280px;
+    box-shadow: 0 0 25px 5px #333333;
+    border-radius:10px;
+}
+
+img:hover{
+    cursor:pointer; 
+    transform: scale(1.3); 
+    transition:1s;
+}
+
+.veicolo {
+    display:flex;
+    width:100%;
+    margin-top: 1.5%; 
+    margin-left: 5%;
+}
+
+.titolo {
+    width:60%;
+    height:280px;
+    font-size: 30pt;
+    text-align: center;
+    margin-left:5%;
+}
+
+.didascalia {
+    width:100%;
+    height:200px;
+    text-align: center;   
+    font-size: 22pt;
+    border: 3px solid #fff;
+    border-radius:8px;
+    padding-top: 10px;
+    vertical-align: 200px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(2px);
+}
